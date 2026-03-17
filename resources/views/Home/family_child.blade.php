@@ -38,10 +38,15 @@
         <div class="container">
             <div class="row align-items-center g-5 mb-5">
                 <div class="col-lg-5 fade-in">
-                    <div
-                        style="background:linear-gradient(135deg,#102040,#0a1628);height:360px;display:flex;align-items:center;justify-content:center;border-top:4px solid var(--gold);">
-                        <i class="fas fa-heart" style="font-size:6rem;color:rgba(184,151,42,.3);"></i>
+
+                    <div class="animated-image">
+                        <img
+                            src="https://www.legalserviceindia.com/legal/uploads/developmentofdivorcelawinindiaanditsimpactinthesociety_7216930320.jpg"
+                            alt="Image"
+
+                            style="width:100%;height:100%;object-fit:fill;display:block;" />
                     </div>
+
                 </div>
                 <div class="col-lg-7 fade-in">
                     <div class="section-label">Matrimonial Matters</div>

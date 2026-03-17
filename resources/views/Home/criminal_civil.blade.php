@@ -32,15 +32,20 @@
             <a href="/">Home</a> <span class="mx-2">/</span> <span>Criminal &amp; Civil Law</span>
         </div>
     </div>
+
     <!-- CRIMINAL LAW DETAIL -->
     <section class="py-5 mt-4" id="criminal">
         <div class="container">
             <div class="row align-items-center g-5 mb-5">
                 <div class="col-lg-5 fade-in">
-                    <div
-                        style="background:linear-gradient(135deg,#102040,#0a1628);height:380px;display:flex;align-items:center;justify-content:center;border-top:4px solid var(--gold);">
-                        <i class="fas fa-gavel" style="font-size:6rem;color:rgba(184,151,42,.3);"></i>
+
+                    <div class="animated-image">
+                        <img
+                            src="https://www.isbr.in/blogs/wp-content/uploads/2024/05/Demystifying-Justice-Explore-the-Difference-between-Civil-and-Criminal-Law-01.jpg"
+                            alt="Image"
+                            style="width:100%;height:100%;object-fit:fill;display:block;" />
                     </div>
+
                 </div>
                 <div class="col-lg-7 fade-in">
                     <div class="section-label">Defence &amp; Prosecution</div>
@@ -57,6 +62,7 @@
                     </p>
                 </div>
             </div>
+
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4 fade-in">
                     <div class="practice-detail-card">

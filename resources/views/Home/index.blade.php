@@ -54,7 +54,7 @@
             </div>
             <div class="col-lg-7 hero-form-col">
                 <div class="hero-form-title">Legal Consultation</div>
-                <div class="hero-form-sub">Send your enquiry — we respond within 2 or 3 hours</div>
+                <div class="hero-form-sub">Send your enquiry — we respond within 1 Hour</div>
 
                 <!-- form -->
 
@@ -79,7 +79,7 @@
                             <span class="err-msg" id="err_city"></span>
                         </div>
                         <div class="col-6 ps-2">
-                            <label>Practice Area</label>
+                            <label>Area Of Enquiry</label>
                             <select name="practice_area" id="practice_area">
                                 <option value="">— Select —</option>
                                 <option>Criminal Law</option>
@@ -99,6 +99,7 @@
                                 <option>Cheque Bounce Cases</option>
                                 <option>Warrant Recall</option>
                                 <option>Public Interest Litigation</option>
+                                <option>Others</option>
                             </select>
                         </div>
                     </div>
@@ -128,15 +129,17 @@
                 <div class="col-lg-5 fade-in">
                     <div class="position-relative" style="padding-right:16px;">
                         <div class="about-img-box">
-                            <i class="fas fa-balance-scale" style="font-size:7rem;color:rgba(184,151,42,.28);"></i>
-                            <div
-                                style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(10,22,40,.9));padding:22px;">
-                                <div
-                                    style="font-size:.56rem;font-weight:600;letter-spacing:3px;color:var(--gold);text-transform:uppercase;">
-                                    AV Law Associates</div>
-                                <div
-                                    style="font-family:'Playfair Display',serif;font-size:.97rem;color:#fff;margin-top:4px;">
-                                    Justice · Integrity · Excellence</div>
+                            <img src="./images/high_court.webp" alt="About Image" class="about-img">
+
+                            <div style="position:absolute;bottom:0;left:0;right:0; background:linear-gradient(transparent,rgba(10,22,40,.9));padding:22px;">
+
+                                <div style="font-size:.56rem;font-weight:900;letter-spacing:3px; color:var(--gold); background-color:#fff;text-transform:uppercase; padding: 5px;">
+                                    AV Law Associates
+                                </div>
+
+                                <div style="font-family:'Playfair Display',serif; font-size:.97rem;color:#fff;margin-top:4px;">
+                                    Justice · Integrity · Excellence
+                                </div>
                             </div>
                         </div>
                         <div class="about-img-frame d-none d-lg-block"></div>
@@ -428,9 +431,9 @@
             </div>
             <div class="row g-4 justify-content-center">
                 <div class="col-12 col-md-3 fade-in text-center">
-                    <div class="team-avatar"><img src="./images/xavier.jpeg" alt="Adv. Xavier"></div>
-                    <div class="team-name">Adv. Xavier</div>
-                    <div class="team-role">Advocate</div>
+                    <div class="team-avatar"><img src="./images/xavier.jpeg" alt="Adv. J J Xavier"></div>
+                    <div class="team-name">Adv. J. J.Xavier</div>
+                    <div class="team-role">Founder</div>
                 </div>
                 <div class="col-12 col-md-3  fade-in text-center">
                     <div class="team-avatar"><img src="./images/shiny.jpeg" alt="Adv. Shiny Xavier"></div>
