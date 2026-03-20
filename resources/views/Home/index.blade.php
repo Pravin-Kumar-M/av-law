@@ -171,6 +171,7 @@
     </section>
 
     <!-- PRACTICE AREAS -->
+
     <section class="practice-section" id="practice">
         <div class="container">
             <div class="text-center mb-5 fade-in">
@@ -429,29 +430,65 @@
                     <div class="diamond"></div>
                 </div>
             </div>
-            <div class="row g-4 justify-content-center">
-                <div class="col-12 col-md-3 fade-in text-center">
+
+            <div class="row g-4 justify-content-center" id="teamGrid">
+
+                <!-- Visible by default (first 4) -->
+                <div class="col-6 col-md-3 fade-in text-center">
                     <div class="team-avatar"><img src="./images/xavier.jpeg" alt="Adv. J J Xavier"></div>
-                    <div class="team-name">Adv. J. J.Xavier</div>
+                    <div class="team-name">Adv. J. J. Xavier</div>
                     <div class="team-role">Founder</div>
                 </div>
-                <div class="col-12 col-md-3  fade-in text-center">
+                <div class="col-6 col-md-3 fade-in text-center">
                     <div class="team-avatar"><img src="./images/shiny.jpeg" alt="Adv. Shiny Xavier"></div>
                     <div class="team-name">Adv. Shiny Xavier</div>
                     <div class="team-role">Advocate</div>
                 </div>
-                <div class="col-12 col-md-3 fade-in text-center">
-                    <div class="team-avatar"><img src="./images/yamini.jpeg" alt="Adv. Yamini"></div>
-                    <div class="team-name">Adv. Yamini</div>
-                    <div class="team-role">Advocate</div>
-                </div>
-                <div class="col-12 col-md-3  fade-in text-center">
+                <div class="col-6 col-md-3 fade-in text-center">
                     <div class="team-avatar"><img src="./images/arasu.jpeg" alt="Adv. Arasu Sanga Tamil"></div>
                     <div class="team-name">Adv. Arasu Sanga Tamil</div>
                     <div class="team-role">Advocate</div>
                 </div>
+                <div class="col-6 col-md-3 fade-in text-center">
+                    <div class="team-avatar"><img src="./images/yamini.jpeg" alt="Adv. Yamini"></div>
+                    <div class="team-name">Adv. Yamini</div>
+                    <div class="team-role">Advocate</div>
+                </div>
+
+                <!-- Hidden initially (last 3) -->
+                <div class="col-6 col-md-3 fade-in text-center team-card-hidden">
+                    <div class="team-avatar"><img src="./images/shanthanu.jpeg" alt="Adv. Shantanu"></div>
+                    <div class="team-name">Adv. Shantanu</div>
+                    <div class="team-role">Advocate</div>
+                </div>
+                <div class="col-6 col-md-3 fade-in text-center team-card-hidden">
+                    <div class="team-avatar"><img src="./images/priyanka.jpeg" alt="Adv. Priyanka"></div>
+                    <div class="team-name">Adv. Priyanka</div>
+                    <div class="team-role">Advocate</div>
+                </div>
+                <div class="col-6 col-md-3 fade-in text-center team-card-hidden">
+                    <div class="team-avatar"><img src="./images/preethi.jpeg" alt="Adv. Preethi"></div>
+                    <div class="team-name">Adv. Preethi</div>
+                    <div class="team-role">Advocate</div>
+                </div>
+                <div class="col-6 col-md-3 fade-in text-center team-card-hidden">
+                    <div class="team-avatar"><img src="./images/revathi.jpeg" alt="Adv. Revathi"></div>
+                    <div class="team-name">Adv. Revathi</div>
+                    <div class="team-role">Advocate</div>
+                </div>
+                <div class="col-6 col-md-3 fade-in text-center team-card-hidden">
+                    <div class="team-avatar"><img src="./images/ramesh.jpeg" alt="Adv. Revathi"></div>
+                    <div class="team-name">Adv. Ramesh</div>
+                    <div class="team-role">Advocate</div>
+                </div>
+
             </div>
-            <!-- <div class="text-center mt-5"><a href="#" class="btn-outline-gold">Meet All Our Lawyers</a></div> -->
+
+            <!-- View More Button -->
+            <div class="text-center mt-5" id="viewMoreWrapper">
+                <button class="btn-view-more" onclick="toggleTeam()">View All Lawyers</button>
+            </div>
+
         </div>
     </section>
 

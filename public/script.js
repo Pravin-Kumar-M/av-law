@@ -157,3 +157,17 @@ if (enquiryForm) {
         }
     });
 }
+
+// toggle team
+
+function toggleTeam() {
+    const hiddenCards = document.querySelectorAll('.team-card-hidden');
+    const btn = document.querySelector('.btn-view-more');
+    const isHidden = hiddenCards[0].style.display === 'none' || hiddenCards[0].style.display === '';
+
+    hiddenCards.forEach(card => {
+        card.style.display = isHidden ? 'block' : 'none';
+    });
+
+    btn.textContent = isHidden ? 'Show Less' : 'View All Lawyers';
+}

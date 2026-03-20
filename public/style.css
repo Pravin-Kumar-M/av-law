@@ -686,12 +686,47 @@ body {
     overflow: hidden;
 }
 
+
+
 .team-avatar img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: top center;
     display: block;
+}
+
+@media(max-width:991px) {
+    .team-avatar {
+        width: 150px;
+        height: 250px;
+    }
+}
+
+/* Hidden cards initially */
+.team-card-hidden {
+    display: none;
+}
+
+/* View More Button */
+.btn-view-more {
+    background: transparent;
+    color: var(--gold-light);
+    border: 1px solid var(--gold);
+    font-size: .7rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 12px 28px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.3s ease, color 0.3s ease;
+    font-family: inherit;
+}
+
+.btn-view-more:hover {
+    background: var(--gold);
+    color: #0a1628;
 }
 
 .team-avatar:hover {
